@@ -33,7 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:hint="Password"
+        app:hintEnabled="false"
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="@+id/clear_text_intput_layout"
         app:layout_constraintStart_toStartOf="@+id/clear_text_intput_layout"
@@ -43,6 +43,7 @@
             android:id="@+id/password_input_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
